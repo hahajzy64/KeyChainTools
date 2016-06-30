@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
   s.license      = "Copyright @ .com, Ltd. 2011-2015, All rights reserved."
   s.summary      = "KeychainTools"
 
-  s.source_files  = "Classes", "KeychainTools/*.{h,m}"
-  s.public_header_files = "KeychainTools/*.h"
-
-  s.requires_arc = true
+  s.source_files = 'KeychainTools/*.{h,m}'
+  
+  s.requires_arc = false;
 
 end
